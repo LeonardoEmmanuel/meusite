@@ -11,23 +11,19 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
     }
 
     header {
       background-color: #f2f2f2;
       padding: 20px;
       text-align: center;
-      width: 100%;
     }
 
     nav {
       background-color: #333;
       color: #fff;
       padding: 10px;
-      width: 100%;
+      text-align: center;
     }
 
     nav ul {
@@ -35,7 +31,7 @@
       margin: 0;
       padding: 0;
       display: flex;
-      justify-content: left;
+      justify-content: center;
     }
 
     nav ul li {
@@ -49,16 +45,10 @@
 
     main {
       padding: 20px;
-      width: 100%;
-      display: flex;
-      justify-content: flex-start;
-      flex-direction: column;
-      align-items: center;
     }
 
     section {
       margin-bottom: 20px;
-      width: 100%;
     }
 
     h2 {
@@ -71,7 +61,11 @@
       color: #fff;
       padding: 10px;
       text-align: center;
-      width: 100%;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
     }
   </style>
 </head>
@@ -99,11 +93,8 @@
       <h2>Sobre</h2>
       <p>Aqui você encontrará informações sobre o nosso site dedicado ao bem-estar e saúde mental. Saiba mais sobre nossa missão, valores e equipe.</p>
     </section>
+    <img src="sobre_image.jpg" alt="Imagem Representativa Sobre">
   </main>
-
-  <footer>
-    <!-- Conteúdo do rodapé -->
-  </footer>
 
   <!-- Página Dicas -->
   <main>
@@ -118,11 +109,8 @@
         <li>Procure ajuda profissional, se necessário</li>
       </ul>
     </section>
+    <img src="dicas_image.jpg" alt="Imagem Representativa Dicas">
   </main>
-
-  <footer>
-    <!-- Conteúdo do rodapé -->
-  </footer>
 
   <!-- Página Recursos -->
   <main>
@@ -135,17 +123,14 @@
         <li><a href="#">Sites de apoio emocional</a></li>
       </ul>
     </section>
+    <img src="recursos_image.jpg" alt="Imagem Representativa Recursos">
   </main>
-
-  <footer>
-    <!-- Conteúdo do rodapé -->
-  </footer>
 
   <!-- Página Contato -->
   <main>
     <section>
       <h2>Contato</h2>
-      <p>Entre em contato conosco através do e-mail [leonardo.andreata@escola.pr.gov.br] ou preenchendo o formulário abaixo:</p>
+      <p>Entre em contato conosco através do e-mail [seuemail@dominio.com] ou preenchendo o formulário abaixo:</p>
       <form>
         <label for="name">Nome:</label>
         <input type="text" id="name" name="name" required><br><br>
@@ -156,6 +141,7 @@
         <input type="submit" value="Enviar">
       </form>
     </section>
+    <img src="contato_image.jpg" alt="Imagem Representativa Contato">
   </main>
 
   <footer>
